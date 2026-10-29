@@ -1,0 +1,85 @@
+ ====   １．HeightMapクラス  ====
+
+このクラスを使って坂の表現を行いました
+頂点によって自動で色分けをします
+メッシュを毎フレーム作成すると重いので、
+事前に頂点データからバッファを作成しあとはそれを描画だけするようにしています
+
+～～HeightMapでの地面補正～～
+
+HeightMap::GetWorldHeight
+
+<GameObjectManager.cpp>
+
+// 動的オブジェクトを取得
+for (auto& object : PhysicsUtility::GetInstance()->GetObjects())
+{
+    // プレイヤーの位置
+    SimpleMath::Vector3 p = object->GetPosition();
+    // ハイトマップから高さを取得
+    float height = m_worldHeightMap.GetWorldHeight(p.x, p.z);
+    // 滑るかどうか
+    bool slide = m_worldHeightMap.IsSlide(p.x, p.z);
+    // 頂点の下にいたら
+    if (p.y < height)
+    {
+        // 滑るなら
+        if (slide)
+        {
+            // 交点のある面の法線を取得
+            SimpleMath::Vector3 normal = m_worldHeightMap.GetNormal(p.x, p.z);
+            // 押し戻し量を計算
+            float penetrationY = height - p.y;
+            // 面に垂直な最短距離だけ押し戻す
+            float pushLength = penetrationY * normal.y;
+            p += normal * pushLength;
+        }
+        else
+        {
+            // 滑らない床なら、強制的にY座標を合わせる
+            p.y = std::max(p.y, height);
+        }
+        // 接地状態に
+        object->Flying(GroundState::Ground);
+    }
+
+    // 位置と頂点の高さを設定
+    object->SetPosition(p);
+	object->SetHeight(height);
+}
+
+～～HeightMapでの地形描画～～
+
+HeightMap::BuildMesh
+
+== FlyWeightPattern ==
+
+各オブジェクトにデータを渡すと大量に出したときにメモリが圧迫してしまうので実装しました。
+また、JsonDataManagerとPythonを使ってデータを呼び出す側はインクルードやクラスの定義の必要はなく、データの定義さえしておけばJsonDataManager＜TData＞でデータをいつでも呼び出すことができます
+
+JsonDataManager class : データの管理者
+DataPath : データの読み込み場所
+ObjectDataType : 呼び出すときに対応させる型
+Dataフォルダ : 使用するデータの種類
+GenerateDataPath.py:Dataフォルダ内にある型に合わせてDataPath ,ObjectDataType にビルド前に書き込み
+
+
+
+== 衝突判定 ==
+オブジェクトを大量に出すと判定で処理が重くなってしまうので、対策のためにOctreeを実装しました。
+また衝突マトリクスやタグ、レイヤーの追加によって、しなくていい衝突タイプの組み合わせを飛ばしたり、オブジェクト側が動作を呼び出すときに簡単に処理を分岐できるようにしました
+
+Collider class : 使用するコライダーをまとめた
+CollisionManager class : 衝突処理を行う
+CollisionMatrix.h : 衝突マトリクスの設定
+NarrowPhase namespace : 衝突判定を行う
+Octree class : コライダーの分木管理
+RayCast class : Rayの判定を行う
+
+== イベント駆動 ==
+プレイヤーがアイテムを入手したときや、ゲームオーバーになったときなど、オブジェクトがオブジェクトにメッセージを送るときにその受け渡し用の仲介者を作りました。
+これにより受け取り側は仲介者に指定のイベントが発生したときだけに呼び出すように設定でき、呼び出し側はイベントを発生させるだけでいいので互いの依存度が減り、疎結合になるようにしました。
+受け渡しの際にvoid*を渡すことで、アクセスも早く共通の基底クラスを持っていないものでも関数を呼び出すことができるようにしました。
+
+EventBus class : イベントの仲介者
+Message : イベントのIDを管理
