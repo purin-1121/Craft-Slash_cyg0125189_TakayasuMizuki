@@ -1,0 +1,26 @@
+[
+  {
+    "type": 0,
+    "name": "Sword",
+    "damage": 10,
+    "attacks": [
+      {
+        "time": 0.4,
+        "start": [ 0.0, 0.0, 0.0 ],
+        "end": [ 0.0, -0.3, -0.3 ]
+      }
+    ]
+  },
+  {
+    "type": 1,
+    "name": "Hammer",
+    "damage": 300,
+    "attacks": [
+      {
+        "time": 0.4,
+        "start": [ 0.0, 0.0, 0.0 ],
+        "end": [ 0.0, 0.0, -0.7 ]
+      }
+    ]
+  }
+]

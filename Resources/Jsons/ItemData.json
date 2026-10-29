@@ -1,0 +1,32 @@
+[
+  {
+    "type": 1,
+    "name": "Wood",
+    "model": "Wood"
+  },
+  {
+    "type": 2,
+    "name": "Meat",
+    "model": "Meat"
+  },
+  {
+    "type": 4,
+    "name": "Coal",
+    "model": "Coal"
+  },
+  {
+    "type": 8,
+    "name": "Stone",
+    "model": "Stone"
+  },
+  {
+    "type": 16,
+    "name": "Bone",
+    "model": "Bone"
+  },
+  {
+    "type": 32,
+    "name": "Leather",
+    "model": "Leather"
+  }
+]

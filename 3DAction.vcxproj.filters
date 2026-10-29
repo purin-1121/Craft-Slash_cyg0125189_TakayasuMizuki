@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>3164e8ea-e1c9-492b-b0b4-274ee3604816</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>5b3ec4a9-1a36-4765-977d-be410d8f7316</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{7e6da571-7d67-40df-9a75-ace1b19f86bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{25af6b2b-0dcb-4e18-9c33-59f08e5283de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GamePlay">
+      <UniqueIdentifier>{1796963e-ff66-4b90-ae31-da14eae5d036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{25bd4222-a788-4edf-bbd6-e70809a6122a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{8b673132-8f74-4153-bc05-20fa32e2a285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Manager">
+      <UniqueIdentifier>{0e004ad7-3ff0-4327-8889-a914701d40d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Scene">
+      <UniqueIdentifier>{1f06e96b-74fd-4f32-9098-620054ad7034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="クラス図">
+      <UniqueIdentifier>{a06ca35f-a90c-4d1f-8c9d-4b173b616b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{071fc21f-13e5-455a-bd9d-fe5c5a1c0f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\nolhmann">
+      <UniqueIdentifier>{afbbd58c-0298-46f3-a590-8f8f7b7db162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectXTK">
+      <UniqueIdentifier>{d54ea124-e652-4a1f-b2fa-3b46816b4b7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fonts">
+      <UniqueIdentifier>{685d353d-8737-4882-b91f-9ce5a20e1570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GamePlay\Blocks">
+      <UniqueIdentifier>{8ec4ad5b-a696-4a23-9e2b-2d4c5816e1b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\State">
+      <UniqueIdentifier>{1b44fd63-12c1-4d64-a7fe-2cadcd0fc2b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\UI">
+      <UniqueIdentifier>{c5deda1f-f187-408b-99bc-c88950561c93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Result">
+      <UniqueIdentifier>{5c4c2824-91f6-420d-8519-ef40aa673fb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Title">
+      <UniqueIdentifier>{b65dbb96-f68b-4790-ae3f-4d6842ed0e4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\UI\Bar">
+      <UniqueIdentifier>{f875cc7d-7957-4730-b0e6-cd3589d5ad9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\UI\Button">
+      <UniqueIdentifier>{bcfb1031-543e-436f-bd14-3b7da849cbe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GamePlay\Actor">
+      <UniqueIdentifier>{bae70d79-8545-4624-b71c-addf0ac1c6c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GamePlay\Item">
+      <UniqueIdentifier>{cc1c6cf1-fcf9-452b-94bf-d8ad4425bc6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GamePlay\Objects">
+      <UniqueIdentifier>{1b5e9124-0e65-49b7-8191-9b33c3b39329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GamePlay\State">
+      <UniqueIdentifier>{f39bc3bb-df7a-4953-a499-d945f0d86412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GamePlay\State\Player">
+      <UniqueIdentifier>{702e5a33-0b52-4352-bef0-c8e561daa827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GamePlay\State\Enemy">
+      <UniqueIdentifier>{64716f36-0d2a-472b-9f4c-f8dcc410f15f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GamePlay\State\Item">
+      <UniqueIdentifier>{83889778-dfe3-4a6f-b414-fff17e62ec9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Animation">
+      <UniqueIdentifier>{892e20ed-6a94-45f6-8b65-cbdf3261a91d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GamePlay\Weapon">
+      <UniqueIdentifier>{0623f99f-2411-4814-9d11-9640f2fb5bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GamePlay\Maps">
+      <UniqueIdentifier>{10260f44-ad02-43de-a1c3-2accda15ce0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\CSV">
+      <UniqueIdentifier>{bc89d5d5-75e4-433b-8152-350955fad826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GamePlay\Factoroy">
+      <UniqueIdentifier>{a01bbf9f-ed20-4b7f-b542-293ff843a382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message">
+      <UniqueIdentifier>{ad4ae7a0-2eee-453d-b219-afca508cdbbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InterFace">
+      <UniqueIdentifier>{c484ff34-158a-4d4c-afaa-414e66a79af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Collider">
+      <UniqueIdentifier>{78E50A70-4DF9-4008-BD5E-B0F0FE3F3765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Draw">
+      <UniqueIdentifier>{926455D5-384B-4D2F-96DC-0A979A060DF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Manager\Resources">
+      <UniqueIdentifier>{FF296CC1-352F-49FF-8292-C76A56EF29FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Model">
+      <UniqueIdentifier>{6AD18855-28E4-477E-91BB-F002D51C6443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Croutine">
+      <UniqueIdentifier>{1283CE45-A869-481F-A479-DD636D7A1FFE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GamePlay\Data">
+      <UniqueIdentifier>{FD2B22C3-9D53-4485-AA22-568B1FE4BA5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GamePlay\Enemy">
+      <UniqueIdentifier>{A3C868BF-FED6-44C1-AB52-609A882F5C87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GamePlay\Factory">
+      <UniqueIdentifier>{3D396348-FB49-46C7-8E89-FE363D045ACC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GamePlay\State\Actor">
+      <UniqueIdentifier>{2B999AEE-A66D-4C7F-9BE5-D2A083283565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GamePlay\State\Boss">
+      <UniqueIdentifier>{85800502-4142-4E0F-BE51-C016917E3763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GamePlay\State\Boss\BossAttack">
+      <UniqueIdentifier>{580F8C95-F99B-480A-9B0D-2C9A4CF75FF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GamePlay\State\Common">
+      <UniqueIdentifier>{13EC0DD9-37FD-4165-9666-27B11F4453BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GamePlay\State\EnemyCommon">
+      <UniqueIdentifier>{0F7875BE-D07B-435E-AF27-3DD300710179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GamePlay\State\PlayerState">
+      <UniqueIdentifier>{37D5C11F-6177-47CD-A740-EDFCB114F1EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GamePlay\Weapon\Bullet">
+      <UniqueIdentifier>{F00E9F06-06E4-4744-9E6E-C8AD74597678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Select">
+      <UniqueIdentifier>{50E87F1F-CC91-4314-A631-FFBFA751DD43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B934C43C-2E12-403E-BA9F-932BB4244199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0F3A5347-FC47-4186-91ED-14BB4E754B23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Models">
+      <UniqueIdentifier>{1CE2A0DB-17A6-4530-AB89-974CF4CA9942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Shaders">
+      <UniqueIdentifier>{F4A9701A-60B4-455F-8FBC-86EA5D86827F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External Dependencies">
+      <UniqueIdentifier>{4FE1E73B-B9D7-4AB5-8794-FBD50920FDB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Jsons">
+      <UniqueIdentifier>{aa14c202-10a5-4fdb-ba3c-66694d1adede}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Camera.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Easing.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Scene\Scene.h">
+      <Filter>Common\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Scene\SceneManager.h">
+      <Filter>Common\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Model\ObjectManager.h">
+      <Filter>Common\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameDataTypes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\PhysicsUtility.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\DirectXTK_Utilities\DebugDraw.h">
+      <Filter>DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\DirectXTK_Utilities\ReadData.h">
+      <Filter>DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Collider\CollisionManager.h">
+      <Filter>Common\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Blocks\Earth.h">
+      <Filter>Game\GamePlay\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\Canvas.h">
+      <Filter>Common\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\Common\UIObject.h">
+      <Filter>Common\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Manager\Resources\ImageManager.h">
+      <Filter>Common\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\Text.h">
+      <Filter>Common\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Random.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\nlohmann\json.hpp">
+      <Filter>Tools\nolhmann</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\nlohmann\json_fwd.hpp">
+      <Filter>Tools\nolhmann</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\GameContext.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Result\Result.h">
+      <Filter>Game\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Title\Title.h">
+      <Filter>Game\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\GameObject\GameObjectManager.h">
+      <Filter>Game\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\Bar\Bar.h">
+      <Filter>Common\UI\Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\Button\Button.h">
+      <Filter>Common\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\Button\FunctionButton.h">
+      <Filter>Common\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Manager\Resources\SoundManager.h">
+      <Filter>Common\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Manager\Resources\ResourceManager.h">
+      <Filter>Common\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\Common\UIHelper.h">
+      <Filter>Common\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\Image.h">
+      <Filter>Common\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Draw\Draw.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\GameObject\GameObject.h">
+      <Filter>Game\GamePlay\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\MathLib.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="InterFace\IGameObjectState.h">
+      <Filter>Game\GamePlay\State\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\PlayerState\PlayerIdle.h">
+      <Filter>Game\GamePlay\State\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Manager\InputManager.h">
+      <Filter>Common\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Animation\Animation.h">
+      <Filter>Tools\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Weapon\MeleeWeapon.h">
+      <Filter>Game\GamePlay\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Weapon\WeaponManager.h">
+      <Filter>Game\GamePlay\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Actor\Actor.h">
+      <Filter>Game\GamePlay\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Enemy\Enemy.h">
+      <Filter>Game\GamePlay\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Actor\Player.h">
+      <Filter>Game\GamePlay\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Blocks\Goal.h">
+      <Filter>Game\GamePlay\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Item\Item.h">
+      <Filter>Game\GamePlay\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Item\ItemManager.h">
+      <Filter>Game\GamePlay\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Data\WeaponData.h">
+      <Filter>Game\GamePlay\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Maps\HeightMap.h">
+      <Filter>Game\GamePlay\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Manager\DataManager.h">
+      <Filter>Common\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Manager\StorageManager.h">
+      <Filter>Common\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Maps\EditManager.h">
+      <Filter>Game\GamePlay\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Item\InventryData.h">
+      <Filter>Game\GamePlay\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Item\InventryMenu.h">
+      <Filter>Game\GamePlay\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\GamePlay.h">
+      <Filter>Game\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\Button\InputField.h">
+      <Filter>Common\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Collider\Collider.h">
+      <Filter>Common\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Item\ItemData.h">
+      <Filter>Game\GamePlay\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Factory\DropFactory.h">
+      <Filter>Game\GamePlay\Factoroy</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Item\DropData.h">
+      <Filter>Game\GamePlay\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Factory\ObjectFactory.h">
+      <Filter>Game\GamePlay\Factoroy</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Blocks\Drop.h">
+      <Filter>Game\GamePlay\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\GameObject\BreakableObject.h">
+      <Filter>Game\GamePlay\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Blocks\Chest.h">
+      <Filter>Game\GamePlay\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Draw\SkyBox.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ReadData.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UI\Bar\Slider.h">
+      <Filter>Common\UI\Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\EventBus.h">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\Messenger.h">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="InterFace\IEventObserver.h">
+      <Filter>InterFace</Filter>
+    </ClInclude>
+    <ClInclude Include="InterFace\IInputObserver.h">
+      <Filter>InterFace</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\EditCamera.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\InputGroup.h">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Croutine\Croutine.h">
+      <Filter>Croutine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Weapon\EvolutionManager.h">
+      <Filter>Game\GamePlay\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\PlayerState\PlayerAttack.h">
+      <Filter>Game\GamePlay\State\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\PlayerState\PlayerWolk.h">
+      <Filter>Game\GamePlay\State\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\PlayerState\PlayerJump.h">
+      <Filter>Game\GamePlay\State\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\StateMichine.h">
+      <Filter>Game\GamePlay\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\State.h">
+      <Filter>Game\GamePlay\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\PlayerState\PlayerState.h">
+      <Filter>Game\GamePlay\State\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\Common\Fall.h">
+      <Filter>Game\GamePlay\State\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\StateHashTag.h">
+      <Filter>Game\GamePlay\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\Actor\StunState.h">
+      <Filter>Game\GamePlay\State\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Data\EnemyData.h">
+      <Filter>Game\GamePlay\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Factory\EnemyStateFactory.h">
+      <Filter>Game\GamePlay\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\EnemyCommon\EnemyState.h">
+      <Filter>Game\GamePlay\State\EnemyCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\EnemyCommon\EnemyAttack.h">
+      <Filter>Game\GamePlay\State\EnemyCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\EnemyCommon\EnemyNotice.h">
+      <Filter>Game\GamePlay\State\EnemyCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\EnemyCommon\EnemyIdle.h">
+      <Filter>Game\GamePlay\State\EnemyCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\JsonConverter.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\EnemyCommon\EnemyChase.h">
+      <Filter>Game\GamePlay\State\EnemyCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\Boss\BossAttack.h">
+      <Filter>Game\GamePlay\State\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\Boss\BossChase.h">
+      <Filter>Game\GamePlay\State\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\Boss\BossIdle.h">
+      <Filter>Game\GamePlay\State\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\Boss\BossNotice.h">
+      <Filter>Game\GamePlay\State\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\Boss\BossState.h">
+      <Filter>Game\GamePlay\State\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\Boss\BossDefeated.h">
+      <Filter>Game\GamePlay\State\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\EnemyCommon\EnemyDefeated.h">
+      <Filter>Game\GamePlay\State\EnemyCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Actor\ActorData.h">
+      <Filter>Game\GamePlay\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\Actor\CoolState.h">
+      <Filter>Game\GamePlay\State\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Weapon\Bullet\Bullet.h">
+      <Filter>Game\GamePlay\Weapon\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="InterFace\IWeapon.h">
+      <Filter>InterFace</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Weapon\RangedWeapon.h">
+      <Filter>Game\GamePlay\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Weapon\Bullet\BulletManager.h">
+      <Filter>Game\GamePlay\Weapon\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Data\BulletData.h">
+      <Filter>Game\GamePlay\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Weapon\WeaponModel.h">
+      <Filter>Game\GamePlay\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="InterFace\IDamageDealer.h">
+      <Filter>InterFace</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Enemy\SpawnArea.h">
+      <Filter>Game\GamePlay\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Enemy\SpawnManager.h">
+      <Filter>Game\GamePlay\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Enemy\EnemyManager.h">
+      <Filter>Game\GamePlay\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Data\SpawnAreaData.h">
+      <Filter>Game\GamePlay\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\TextConverter.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Collider\NarrowPhase.h">
+      <Filter>Common\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Collider\CollisionResolver.h">
+      <Filter>Common\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Collider\CollisionMatrix.h">
+      <Filter>Common\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Collider\RayCast.h">
+      <Filter>Common\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Select\Select.h">
+      <Filter>Game\Select</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\Boss\BossAttack\SlashAttack.h">
+      <Filter>Game\GamePlay\State\Boss\BossAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\Boss\BossAttack\ChargeAttack.h">
+      <Filter>Game\GamePlay\State\Boss\BossAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Actor\BuffManager.h">
+      <Filter>Game\GamePlay\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\Boss\BossAttack\BossAttackBase.h">
+      <Filter>Game\GamePlay\State\Boss\BossAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\AnnouncementManager.h">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Data\BossAttackData.h">
+      <Filter>Game\GamePlay\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Data\BreakableObjectData.h">
+      <Filter>Game\GamePlay\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\State\Boss\BossAttack\DashAttack.h">
+      <Filter>Game\GamePlay\State\Boss\BossAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Factory\FadeFactory.h">
+      <Filter>Game\GamePlay\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Collider\Octree.h">
+      <Filter>Common\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Manager\Resources\JsonDataManager.h">
+      <Filter>Common\Manager\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Manager\Resources\DataPath.h">
+      <Filter>Common\Manager\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Manager\Resources\ObjectDataType.h">
+      <Filter>Common\Manager\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Model\ModelResource.h">
+      <Filter>Common\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Model\CpuSkinnedRenderer.h">
+      <Filter>Common\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Model\Animator.h">
+      <Filter>Common\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Draw\ShaderManager.h">
+      <Filter>Common\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Model\GpuSkinnedVertex.h">
+      <Filter>Common\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Draw\DrawSystem.h">
+      <Filter>Common\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Draw\ShadowRenderer.h">
+      <Filter>Common\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GamePlay\Data\WeaponRecipe.h">
+      <Filter>Game\GamePlay\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\Message.h">
+      <Filter>Message</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Camera.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Scene\Scene.cpp">
+      <Filter>Common\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Scene\SceneManager.cpp">
+      <Filter>Common\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Model\ObjectManager.cpp">
+      <Filter>Common\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\PhysicsUtility.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Collider\CollisionManager.cpp">
+      <Filter>Common\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Blocks\Earth.cpp">
+      <Filter>Game\GamePlay\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameDataTypes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\Canvas.cpp">
+      <Filter>Common\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\Common\UIObject.cpp">
+      <Filter>Common\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\Text.cpp">
+      <Filter>Common\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Result\Result.cpp">
+      <Filter>Game\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Title\Title.cpp">
+      <Filter>Game\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\Bar\Bar.cpp">
+      <Filter>Common\UI\Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\Button\Button.cpp">
+      <Filter>Common\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\Button\FunctionButton.cpp">
+      <Filter>Common\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\Image.cpp">
+      <Filter>Common\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Draw\Draw.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\GameObject\GameObject.cpp">
+      <Filter>Game\GamePlay\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\State\PlayerState\PlayerIdle.cpp">
+      <Filter>Game\GamePlay\State\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Manager\InputManager.cpp">
+      <Filter>Common\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Animation\Animation.cpp">
+      <Filter>Tools\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Manager\Resources\ResourceManager.cpp">
+      <Filter>Common\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\GameObject\GameObjectManager.cpp">
+      <Filter>Game\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Weapon\MeleeWeapon.cpp">
+      <Filter>Game\GamePlay\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Weapon\WeaponManager.cpp">
+      <Filter>Game\GamePlay\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Actor\Actor.cpp">
+      <Filter>Game\GamePlay\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Enemy\Enemy.cpp">
+      <Filter>Game\GamePlay\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Actor\Player.cpp">
+      <Filter>Game\GamePlay\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Blocks\Goal.cpp">
+      <Filter>Game\GamePlay\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Item\Item.cpp">
+      <Filter>Game\GamePlay\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Item\ItemManager.cpp">
+      <Filter>Game\GamePlay\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Maps\HeightMap.cpp">
+      <Filter>Game\GamePlay\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Manager\DataManager.cpp">
+      <Filter>Common\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Manager\StorageManager.cpp">
+      <Filter>Common\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Maps\EditManager.cpp">
+      <Filter>Game\GamePlay\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Item\InventryMenu.cpp">
+      <Filter>Game\GamePlay\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\GamePlay.cpp">
+      <Filter>Game\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\Button\InputField.cpp">
+      <Filter>Common\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Collider\Collider.cpp">
+      <Filter>Common\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Factory\DropFactory.cpp">
+      <Filter>Game\GamePlay\Factoroy</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Blocks\Drop.cpp">
+      <Filter>Game\GamePlay\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\GameObject\BreakableObject.cpp">
+      <Filter>Game\GamePlay\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Blocks\Chest.cpp">
+      <Filter>Game\GamePlay\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Draw\SkyBox.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Manager\Resources\SoundManager.cpp">
+      <Filter>Common\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UI\Bar\Slider.cpp">
+      <Filter>Common\UI\Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\EventBus.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\EditCamera.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\InputGroup.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="InterFace\IInputObserver.cpp">
+      <Filter>InterFace</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Data\WeaponData.cpp">
+      <Filter>Game\GamePlay\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Actor\BuffManager.cpp">
+      <Filter>Game\GamePlay\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Collider\CollisionResolver.cpp">
+      <Filter>Common\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Collider\NarrowPhase.cpp">
+      <Filter>Common\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Collider\Octree.cpp">
+      <Filter>Common\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Collider\RayCast.cpp">
+      <Filter>Common\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Draw\ShaderManager.cpp">
+      <Filter>Common\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Model\Animator.cpp">
+      <Filter>Common\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Model\CpuSkinnedRenderer.cpp">
+      <Filter>Common\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Model\ModelResource.cpp">
+      <Filter>Common\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Croutine\Croutine.cpp">
+      <Filter>Croutine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Enemy\EnemyManager.cpp">
+      <Filter>Game\GamePlay\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Enemy\SpawnArea.cpp">
+      <Filter>Game\GamePlay\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Enemy\SpawnManager.cpp">
+      <Filter>Game\GamePlay\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Factory\EnemyStateFactory.cpp">
+      <Filter>Game\GamePlay\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Factory\FadeFactory.cpp">
+      <Filter>Game\GamePlay\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\State\Actor\CoolState.cpp">
+      <Filter>Game\GamePlay\State\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\State\Actor\StunState.cpp">
+      <Filter>Game\GamePlay\State\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\State\Boss\BossAttack\BossAttackBase.cpp">
+      <Filter>Game\GamePlay\State\Boss\BossAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\State\Boss\BossAttack\ChargeAttack.cpp">
+      <Filter>Game\GamePlay\State\Boss\BossAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\State\Boss\BossAttack\DashAttack.cpp">
+      <Filter>Game\GamePlay\State\Boss\BossAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\State\Boss\BossAttack\SlashAttack.cpp">
+      <Filter>Game\GamePlay\State\Boss\BossAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\State\Boss\BossAttack.cpp">
+      <Filter>Game\GamePlay\State\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\State\Boss\BossChase.cpp">
+      <Filter>Game\GamePlay\State\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\State\Boss\BossDefeated.cpp">
+      <Filter>Game\GamePlay\State\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\State\Boss\BossIdle.cpp">
+      <Filter>Game\GamePlay\State\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\State\Boss\BossNotice.cpp">
+      <Filter>Game\GamePlay\State\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\State\Boss\BossState.cpp">
+      <Filter>Game\GamePlay\State\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\State\Common\Fall.cpp">
+      <Filter>Game\GamePlay\State\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\State\EnemyCommon\EnemyAttack.cpp">
+      <Filter>Game\GamePlay\State\EnemyCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\State\EnemyCommon\EnemyChase.cpp">
+      <Filter>Game\GamePlay\State\EnemyCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\State\EnemyCommon\EnemyDefeated.cpp">
+      <Filter>Game\GamePlay\State\EnemyCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\State\EnemyCommon\EnemyIdle.cpp">
+      <Filter>Game\GamePlay\State\EnemyCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\State\EnemyCommon\EnemyNotice.cpp">
+      <Filter>Game\GamePlay\State\EnemyCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\State\EnemyCommon\EnemyState.cpp">
+      <Filter>Game\GamePlay\State\EnemyCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\State\PlayerState\PlayerAttack.cpp">
+      <Filter>Game\GamePlay\State\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\State\PlayerState\PlayerJump.cpp">
+      <Filter>Game\GamePlay\State\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\State\PlayerState\PlayerState.cpp">
+      <Filter>Game\GamePlay\State\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\State\PlayerState\PlayerWolk.cpp">
+      <Filter>Game\GamePlay\State\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Weapon\Bullet\Bullet.cpp">
+      <Filter>Game\GamePlay\Weapon\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Weapon\Bullet\BulletManager.cpp">
+      <Filter>Game\GamePlay\Weapon\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Weapon\EvolutionManager.cpp">
+      <Filter>Game\GamePlay\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Weapon\RangedWeapon.cpp">
+      <Filter>Game\GamePlay\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GamePlay\Weapon\WeaponModel.cpp">
+      <Filter>Game\GamePlay\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Select\Select.cpp">
+      <Filter>Game\Select</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\AnnouncementManager.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Draw\DrawSystem.cpp">
+      <Filter>Common\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Draw\ShadowRenderer.cpp">
+      <Filter>Common\Draw</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\resource.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CSV\Map.csv">
+      <Filter>Resources\CSV</Filter>
+    </None>
+    <None Include="Tools\GenerateDataPath.py">
+      <Filter>Tools</Filter>
+    </None>
+    <None Include="Resources\Jsons\BossAttackData.json">
+      <Filter>Resources\Jsons</Filter>
+    </None>
+    <None Include="Resources\Jsons\BreakableObjectData.json">
+      <Filter>Resources\Jsons</Filter>
+    </None>
+    <None Include="Resources\Jsons\BulletData.json">
+      <Filter>Resources\Jsons</Filter>
+    </None>
+    <None Include="Resources\Jsons\DropData.json">
+      <Filter>Resources\Jsons</Filter>
+    </None>
+    <None Include="Resources\Jsons\EnemyData.json">
+      <Filter>Resources\Jsons</Filter>
+    </None>
+    <None Include="Resources\Jsons\ItemData.json">
+      <Filter>Resources\Jsons</Filter>
+    </None>
+    <None Include="Resources\Jsons\Model.json">
+      <Filter>Resources\Jsons</Filter>
+    </None>
+    <None Include="Resources\Jsons\ModelObjectsData.json">
+      <Filter>Resources\Jsons</Filter>
+    </None>
+    <None Include="Resources\Jsons\SpawnAreaData.json">
+      <Filter>Resources\Jsons</Filter>
+    </None>
+    <None Include="Resources\Jsons\SpawnAreaPosData.json">
+      <Filter>Resources\Jsons</Filter>
+    </None>
+    <None Include="Resources\Jsons\WeaponAttackStep.json">
+      <Filter>Resources\Jsons</Filter>
+    </None>
+    <None Include="Resources\Jsons\WeaponData.json">
+      <Filter>Resources\Jsons</Filter>
+    </None>
+    <None Include="Resources\Jsons\WeaponRecipe.json">
+      <Filter>Resources\Jsons</Filter>
+    </None>
+    <None Include="Resources\Models\Bone.cmo">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="Resources\Models\Coal.cmo">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="Resources\Models\Leather.cmo">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="Resources\Models\Stone.cmo">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="Resources\Models\Wood.cmo">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="Resources\Shaders\Shadow.hlsli">
+      <Filter>Resources\Shaders</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Resources\Shaders\HitEffectPSShader.hlsl">
+      <Filter>Resources\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\HitEffectVSShader.hlsl">
+      <Filter>Resources\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\ShadowPS.hlsl">
+      <Filter>Resources\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\ShadowVS.hlsl">
+      <Filter>Resources\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

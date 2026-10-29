@@ -1,0 +1,47 @@
+[
+  {
+    "Comment": {
+      "name:string": [
+        "attackID    : string",
+        "maxHpRate   : float",
+        "minHpRate   : float",
+        "maxDistance : float",
+        "minDistance : float",
+        "priority    : int",
+        "isOnce      : bool"
+
+      ]
+    }
+  },
+  {
+    "BossA": [
+      {
+        "attackID": "Slash",
+        "maxHpRate": 1.0,
+        "minHpRate": 0.0,
+        "maxDistance": 0.5,
+        "minDistance": 0.0,
+        "priority": 0,
+        "isOnce": false
+      },
+      {
+        "attackID": "Charge",
+        "maxHpRate": 0.5,
+        "minHpRate": 0.0,
+        "maxDistance": 100000.0,
+        "minDistance": 0.0,
+        "priority": 100,
+        "isOnce": true
+      },
+      {
+        "attackID": "Dash",
+        "maxHpRate": 0.4,
+        "minHpRate": 0.0,
+        "maxDistance": 100000.0,
+        "minDistance": 0.0,
+        "priority": 10,
+        "isOnce": false
+      }
+    ]
+  }
+]

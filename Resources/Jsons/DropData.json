@@ -1,0 +1,26 @@
+[
+  {
+    "comment": "name : オブジェクトの名前, type : ドロップする種類",
+    "comment2": "WOOD = 1, MEAT = 2, COAL = 4, STONE = 8 BONE = 16, LEATHER = 32"
+  },
+  {
+    "name": "WoodBlock",
+    "type": 1
+  },
+  {
+    "name": "Chest",
+    "type": 63
+  },
+  {
+    "name": "Sheep",
+    "type": 1
+  },
+  {
+    "name": "Goblin",
+    "type": 50
+  },
+  {
+    "name": "BushBerries",
+    "type": 1
+  }
+]

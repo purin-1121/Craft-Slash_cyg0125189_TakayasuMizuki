@@ -1,0 +1,147 @@
+[
+  {
+    "name": "Sword",
+    "coolTime": 0.5,
+    "attackType": "Melee",
+    "bulletName": "none",
+    "power": 100.0,
+    "knockBack": 2.0,
+    "durability": 10,
+    "modelName": "Sword",
+    "collider": "Sphere",
+    "colliders": [
+      {
+        "type": "Box",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "size": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": 0.5
+        }
+      }
+    ],
+    "offsets": {
+      "Idle": {
+        "pos": {"x": -0.05, "y": 0.15, "z": -0.05},
+        "rot": {"x": 0.0, "y": 0.0, "z": 0.7071, "w": 0.7071}
+      },
+      "Run": {
+        "pos": {"x": -0.05, "y": 0.1, "z": 0.08},
+        "rot": {"x": 0.0, "y": 0.0, "z": 0.966, "w": -0.259}
+      },
+      "Attack": {
+        "pos": {"x": 0.0, "y": 0.0, "z": 0.0},
+        "rot": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0}
+      }
+    }
+  },
+  {
+    "name": "Hammer",
+    "attackType": "Melee",
+    "bulletName": "none",
+    "coolTime": 0.5,
+    "power": 200.0,
+    "knockBack": 2.0,
+    "durability": 10,
+    "modelName": "Hammer",
+    "collider": "Box",
+    "colliders": [
+      {
+        "type": "Box",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "size": {
+          "x": 0.5,
+          "y": 1.5,
+          "z": 0.5
+        }
+      }
+    ],
+    "offsets":
+      {
+        "Idle": {
+          "pos": {
+            "x": -0.05,
+            "y": 0.2,
+            "z": 0.05
+          },
+          "rot": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0,
+            "w": 1
+          }
+        },
+        "Run": {
+          "pos": {
+            "x": -0.05,
+            "y": 0.2,
+            "z": 0.05
+          },
+          "rot": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0,
+            "w": 1
+          }
+        }
+      }
+  },
+  {
+    "name": "Rocket",
+    "attackType": "Ranged",
+    "bulletName": "Normal",
+    "coolTime": 1.2,
+    "power": 10.0,
+    "modelName": "none",
+    "offsets": {
+      "Idle": {
+        "pos": {
+          "x": -0.05,
+          "y": 0.15,
+          "z": -0.05
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.7071,
+          "w": 0.7071
+        }
+      },
+      "Run": {
+        "pos": {
+          "x": -0.05,
+          "y": 0.1,
+          "z": 0.08
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.966,
+          "w": -0.259
+        }
+      },
+      "Attack": {
+        "pos": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        }
+      }
+    }
+  }
+
+]

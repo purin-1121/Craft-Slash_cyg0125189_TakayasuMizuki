@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="../../../../Desktop/Release/Release.vcxproj" Id="2990131c-b89c-4b40-9461-dfe78c3f72f7" />
+  <Project Path="3DAction.vcxproj" Id="21c96a58-451e-4813-9e27-537f02af7bd3" />
+</Solution>

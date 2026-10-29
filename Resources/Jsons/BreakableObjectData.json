@@ -1,0 +1,416 @@
+[
+  {
+    "Comment": [
+      "id : string",
+      "name : string",
+      "maxHp : int",
+      "mass : float",
+      "isKinematic : bool",
+      "collider : ColliderData"
+    ]
+  },
+  {
+    "id": "0",
+    "name": "WoodBlock",
+    "maxHp": 100,
+    "mass : float": 600.0,
+    "isKinematic": false,
+    "collider": {
+      "type": "Box",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      }
+    }
+  },
+  {
+    "name": "BirchTree",
+    "collider": {
+      "type": "Box",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "x": 1.4,
+        "y": 0.6,
+        "z": 2.4
+      }
+    }
+    },
+    {
+      "name": "BirchTree2",
+      "collider": {
+        "type": "Box",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "size": {
+          "x": 1.6,
+          "y": 0.8,
+          "z": 2.4
+        }
+      }
+      },
+  {
+    "name": "BirchTree_Dead",
+    "collider": {
+      "type": "Box",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      }
+    }
+  },
+  {
+    "name": "BirchTree_Dead2",
+    "collider": {
+      "type": "Box",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      }
+    }
+  },
+  {
+    "name": "BirchTree_Dead_Snow",
+    "collider": {
+      "type": "Box",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      }
+    }
+  },
+  {
+    "name": "Bush",
+    "collider": {
+      "type": "Box",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      }
+    }
+  },
+  {
+    "name": "BushBerries",
+    "collider": {
+      "type": "Box",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "x": 0.9,
+        "y": 1.0,
+        "z": 1.2
+      }
+    }
+  },
+  {
+    "name": "CommonTree",
+    "collider": {
+      "type": "Box",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      }
+    }
+  },
+  {
+    "name": "CommonTree2",
+    "collider": {
+      "type": "Box",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      }
+    }
+  },
+  {
+    "name": "Corn",
+    "collider": {
+      "type": "Box",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      }
+    }
+  },
+  {
+    "name": "Grass_Short",
+    "collider": {
+      "type": "Box",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      }
+    }
+  },
+  {
+    "name": "Plant",
+    "collider": {
+      "type": "Box",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      }
+    }
+  },
+  {
+    "name": "Plant2",
+    "collider": {
+      "type": "Box",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      }
+    }
+  },
+  {
+    "name": "Rock",
+    "collider": {
+      "type": "Box",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      }
+    }
+  },
+  {
+    "name": "Rock2",
+    "collider": {
+      "type": "Box",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      }
+    }
+  },
+  {
+    "name": "Rock_Moss",
+    "collider": {
+      "type": "Box",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      }
+    }
+  },
+  {
+    "name": "Rock_Snow",
+    "collider": {
+      "type": "Box",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      }
+    }
+  },
+  {
+    "name": "Rock_Snow2",
+    "collider": {
+      "type": "Box",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      }
+    }
+  },
+  {
+    "name": "TreeStump",
+    "collider": {
+      "type": "Box",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      }
+    }
+  },
+  {
+    "name": "Willow",
+    "collider": {
+      "type": "Box",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      }
+    }
+  },
+  {
+    "name": "Willow2",
+    "collider": {
+      "type": "Box",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      }
+    }
+  },
+  {
+    "name": "Willow_Dead",
+    "collider": {
+      "type": "Box",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      }
+    }
+  },
+  {
+    "name": "Willow_Dead2",
+    "collider": {
+      "type": "Box",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      }
+    }
+  },
+  {
+    "name": "WoodLog",
+    "collider": {
+      "type": "Box",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      }
+    }
+  }
+]

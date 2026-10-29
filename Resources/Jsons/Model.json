@@ -1,0 +1,204 @@
+[
+  {
+    "name": "Ground",
+    "modelPath": "Ground.cmo"
+  },
+  {
+    "name": "Flag",
+    "modelPath": "Flag.cmo"
+  },
+  {
+    "name": "WoodBlock",
+    "modelPath": "BirchTree_1.cmo"
+  },
+  {
+    "name": "Meat",
+    "modelPath": "Meat.cmo"
+  },
+  {
+    "name": "BatWing",
+    "modelPath": "BatWing.cmo"
+  },
+  {
+    "name": "Sword",
+    "modelPath": "Sword.cmo"
+  },
+  {
+    "name": "Leather",
+    "modelPath": "Leather.cmo"
+  },
+  {
+    "name": "Coal",
+    "modelPath": "Coal.cmo"
+  },
+  {
+    "name": "Hammer",
+    "modelPath": "Hammer.cmo"
+  },
+  {
+    "name": "Stone",
+    "modelPath": "Stone.cmo"
+  },
+  {
+    "name": "Bone",
+    "modelPath": "Bone.cmo"
+  },
+  {
+    "name": "Mountain",
+    "modelPath": "Mountain.cmo"
+  },
+  {
+    "name": "Wood",
+    "modelPath": "Wood.cmo"
+  },
+  {
+    "name": "Fence",
+    "modelPath": "Mountain.cmo"
+  },
+  {
+    "name": "Chest",
+    "modelPath": "Chest.cmo"
+  },
+  {
+    "name": "BirchTree",
+    "modelPath": "BirchTree_1.cmo"
+  },
+  {
+    "name": "BirchTree2",
+    "modelPath": "BirchTree_5.cmo"
+  },
+  {
+    "name": "BirchTree_Dead",
+    "modelPath": "BirchTree_Dead_1.cmo"
+  },
+  {
+    "name": "BirchTree_Dead2",
+    "modelPath": "Willow_Dead_4.cmo"
+  },
+  {
+    "name": "BirchTree_Dead_Snow",
+    "modelPath": "BirchTree_Dead_Snow_2.cmo"
+  },
+  {
+    "name": "Bullet",
+    "modelPath": "Bullet.cmo"
+  },
+  {
+    "name": "Bush",
+    "modelPath": "Bush_1.cmo"
+  },
+  {
+    "name": "BushBerries",
+    "modelPath": "BushBerries_1.cmo"
+  },
+  {
+    "name": "CommonTree",
+    "modelPath": "CommonTree_1.cmo"
+  },
+  {
+    "name": "CommonTree2",
+    "modelPath": "CommonTree_3.cmo"
+  },
+  {
+    "name": "Corn",
+    "modelPath": "Corn_1.cmo"
+  },
+  {
+    "name": "Grass_Short",
+    "modelPath": "Grass_Short.cmo"
+  },
+  {
+    "name": "Plant",
+    "modelPath": "Plant_1.cmo"
+  },
+  {
+    "name": "Plant2",
+    "modelPath": "Plant_3.cmo"
+  },
+  {
+    "name": "Rock",
+    "modelPath": "Rock_5.cmo"
+  },
+  {
+    "name": "Rock2",
+    "modelPath": "Rock_7.cmo"
+  },
+  {
+    "name": "Rock_Moss",
+    "modelPath": "Rock_Moss_1.cmo"
+  },
+  {
+    "name": "Rock_Snow",
+    "modelPath": "Rock_Snow_1.cmo"
+  },
+  {
+    "name": "Rock_Snow2",
+    "modelPath": "Rock_Snow_4.cmo"
+  },
+  {
+    "name": "TreeStump",
+    "modelPath": "TreeStump.cmo"
+  },
+  {
+    "name": "Willow",
+    "modelPath": "Willow_1.cmo"
+  },
+  {
+    "name": "Willow2",
+    "modelPath": "Willow_4.cmo"
+  },
+  {
+    "name": "Willow_Dead",
+    "modelPath": "Willow_Dead_1.cmo"
+  },
+  {
+    "name": "Willow_Dead2",
+    "modelPath": "Willow_Dead_3.cmo"
+  },
+  {
+    "name": "WoodLog",
+    "modelPath": "WoodLog.cmo"
+  },
+  {
+    "name": "PlayerIdle",
+    "modelPath": "PlayerIdle.fbx"
+  },
+  {
+    "name": "InfantryIdle",
+    "modelPath": "InfantryIdle.fbx"
+  },
+  {
+    "name": "BossAIdle",
+    "modelPath": "BossAIdle.fbx"
+  },
+  {
+    "name": "Run",
+    "modelPath": "Running.fbx",
+    "baseModel": [ "PlayerIdle", "InfantryIdle", "BossAIdle" ]
+  },
+  {
+    "name": "Jump",
+    "modelPath": "Jumping.fbx",
+    "baseModel": [ "PlayerIdle", "InfantryIdle", "BossAIdle" ]
+  },
+  {
+    "name": "SwordAttack",
+    "modelPath": "SwordAttack.fbx",
+    "baseModel": [ "PlayerIdle", "InfantryIdle", "BossAIdle" ]
+  },
+  {
+    "name": "RocketAttack",
+    "modelPath": "RocketAttack.fbx",
+    "baseModel": [ "PlayerIdle", "InfantryIdle", "BossAIdle" ]
+  },
+  {
+    "name": "Stun",
+    "modelPath": "Stun.fbx",
+    "baseModel": [ "PlayerIdle", "InfantryIdle", "BossAIdle" ]
+  },
+  {
+    "name": "Defeated",
+    "modelPath": "Defeated.fbx",
+    "baseModel": [ "PlayerIdle", "InfantryIdle", "BossAIdle" ]
+  }
+]

@@ -1,0 +1,5 @@
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+0123456789
+現在のタイム：スコア
+あいうえお ... (使いたい文字を全部入れる)

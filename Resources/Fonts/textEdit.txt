@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpriteFont>
+  <FontName>マキナス 4 Flat</FontName> <!-- 使いたいフォント名 -->
+  <Size>16</Size> <!-- ここを好きな大きさに設定 -->
+  <Spacing>0</Spacing>
+  <Style>Regular</Style>
+  <CharacterRegions>
+    <CharacterRegion>
+      <Start>&#32;</Start>
+      <End>&#126;</End>
+    </CharacterRegion>
+  </CharacterRegions>
+</SpriteFont>

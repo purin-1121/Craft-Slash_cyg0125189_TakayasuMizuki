@@ -1,0 +1,53 @@
+[
+  {
+    "Comment": [
+      "recipeName:string",
+      "priorityLevel:int",
+      "requiestMask:uint8",
+      " requiredMaterials:unordered_map<uint8_t, int>",
+      "WOOD = 1, MEAT = 2, COAL = 4, STONE = 8 BONE = 16, LEATHER = 32"
+    ]
+  },
+  {
+    "recipeName": "Hammer",
+    "priorityLevel": 1,
+    "requiestMask": 63,
+    "requiredMaterials": [
+      {
+        "type": 1,
+        "num": 1
+      },
+      {
+        "type": 2,
+        "num": 1
+      },
+      {
+        "type": 4,
+        "num": 1
+      },
+      {
+        "type": 8,
+        "num": 1
+      },
+      {
+        "type": 16,
+        "num": 1
+      },
+      {
+        "type": 32,
+        "num": 1
+      }
+    ]
+  },
+  {
+    "recipeName": "Rocket",
+    "priorityLevel": 10,
+    "requiestMask": 1,
+    "requiredMaterials": [
+      {
+        "type": 1,
+        "num": 10
+      }
+    ]
+  }
+]

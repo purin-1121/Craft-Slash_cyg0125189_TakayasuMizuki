@@ -1,0 +1,18 @@
+[
+  {
+    "Comment": [
+      "bulletName : string",
+      "modelPath : string",
+      "bombRadius : float",
+      "power : int",
+      "bulletRadius : float"
+    ]
+  },
+  {
+    "name": "Normal",
+    "modelPath": "Bullet",
+    "bombRadius": 1.5,
+    "power": 120,
+    "bulletRadius": 0.1 
+  }
+]
